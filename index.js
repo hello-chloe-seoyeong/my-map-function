@@ -8,4 +8,11 @@ function myMap (cdFn) {
   };
 }
 
-module.exports = myMap;
+function add (a, b) {
+  return a + b;
+}
+
+module.exports = {
+  myMap,
+  add
+};
